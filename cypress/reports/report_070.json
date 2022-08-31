@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-08-31T06:58:25.174Z",
+    "end": "2022-08-31T06:58:46.863Z",
+    "duration": 21689,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "034fee3a-a476-4323-ab93-6495e385e8dc",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\Pages\\Newsroom\\Newsroom.js",
+      "file": "cypress\\integration\\examples\\Pages\\Newsroom\\Newsroom.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "newsRoom",
+          "fullTitle": "newsRoom",
+          "timedOut": null,
+          "duration": 15661,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit(newsRoom.url);\ncy.get(newsRoom.newsRoomNav).click();",
+          "err": {},
+          "uuid": "0aba7d23-1d92-4bd8-ba00-99c1a8c31d3a",
+          "parentUUID": "034fee3a-a476-4323-ab93-6495e385e8dc",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "0aba7d23-1d92-4bd8-ba00-99c1a8c31d3a"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 15661,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

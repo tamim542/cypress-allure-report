@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-08-31T06:56:22.027Z",
+    "end": "2022-08-31T06:57:14.038Z",
+    "duration": 52011,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "425c80ba-05c8-4f04-b06c-e60f70996b3e",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\Pages\\AboutUs\\AboutUs.js",
+      "file": "cypress\\integration\\examples\\Pages\\AboutUs\\AboutUs.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "khatabook",
+          "fullTitle": "khatabook",
+          "timedOut": null,
+          "duration": 43409,
+          "state": "passed",
+          "speed": "slow",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit(locatorAbout.url);\ncy.get(locatorAbout.aboutUs).click();\ncy.get(locatorAbout.videoAbout).click();\ncy.wait(5000);\ncy.get(locatorAbout.videoYoutube).click();\ncy.get(locatorAbout.menRightArrow).click();\ncy.wait(5000);\ncy.get(locatorAbout.menLeftArrow).click();",
+          "err": {},
+          "uuid": "bee3a709-3abb-4f29-89ae-871acae03eaa",
+          "parentUUID": "425c80ba-05c8-4f04-b06c-e60f70996b3e",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "bee3a709-3abb-4f29-89ae-871acae03eaa"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 43409,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
